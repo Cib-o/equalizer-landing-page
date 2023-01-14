@@ -110,6 +110,7 @@
   display: flex;
   justify-content: center;
   color: var(--cool-december);
+  cursor: pointer;
   border: none;
   border-radius: 12px;
   background-color: var(--coarse-wool);
@@ -137,6 +138,7 @@
   display: flex;
   justify-content: center;
   color: var(--coarse-wool);
+  cursor: pointer;
   border: none;
   border-radius: 12px;
   background-color: var(--cool-december);
