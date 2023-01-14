@@ -1,0 +1,430 @@
+/** Default Desktop Version **/
+.top-section {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.top-section div {
+  max-width: 850px;
+}
+
+.logo {
+  margin-bottom: 70px;
+  height: auto;
+  width: auto;
+}
+
+.top-section div p {
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.bg-pattern-1 {
+  margin-top: -100px;
+  margin-left: 62px;
+  height: 467px;
+  width: 312px;
+}
+
+.middle-section {
+  border-radius: 12px;
+  background-color: var(--coarse-wool);
+  margin-top: 322px;
+  height: 600px;
+  width: 1236px;
+  min-width: 1236px;
+  max-width: 100%;
+}
+
+.bg-pattern-2 {
+  position: absolute;
+  margin-top: -36px;
+  margin-left: 336px;
+  height: 467px;
+  width: 312px;
+  z-index: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.illustratiotn-app-img {
+  margin-left: 102px;
+  margin-top: -170px;
+  height: 642px;
+  width: 312px;
+  z-index: 1;
+}
+
+.card {
+  display: flex;
+  border-radius: 12px;
+  background-color: var(--fresh-salmon);
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  margin-right: 95px;
+  height: 625px;
+  width: 446px;
+  z-index: 1;
+}
+
+.card h1,
+.card h2,
+.card p {
+  color: var(--cool-december);
+  margin-left: 54px;
+}
+
+.card h2 {
+  margin-top: 58px;
+  margin-bottom: 0px;
+}
+
+.card p {
+  font-size: 20px;
+  line-height: 34px;
+  margin-top: 22px;
+  margin-bottom: 39px;
+}
+
+.card h1 {
+  display: flex;
+  font-size: 65px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.card span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  margin-left: 16px;
+}
+
+.ios-download-btn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: var(--cool-december);
+  border: none;
+  border-radius: 12px;
+  background-color: var(--coarse-wool);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'IBM Plex Sans', sans-serif;
+  letter-spacing: -0.18px;
+  margin-bottom: 16px;
+  margin-left: 54px;
+  transition: background-color 0.2s;
+  height: 61px;
+  width: 333px;
+}
+
+.icon-apple {
+  margin: 0;
+  margin-top: -4px;
+  margin-right: 7px;
+  height: 20px;
+  width: 17px;
+}
+
+.apk-download-btn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: var(--coarse-wool);
+  border: none;
+  border-radius: 12px;
+  background-color: var(--cool-december);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'IBM Plex Sans', sans-serif;
+  letter-spacing: -0.18px;
+  margin-left: 54px;
+  transition: background-color 0.2s;
+  height: 61px;
+  width: 333px;
+}
+
+.icon-android {
+  margin: 0;
+  margin-top: -2px;
+  margin-right: 7px;
+  height: 20px;
+  width: 17px;
+}
+
+.ios-download-btn:hover {
+  background-color: var(--pluviophile);
+}
+
+.apk-download-btn:hover {
+  background-color: var(--warm-apricot);
+}
+
+.bottom-section {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 202px;
+  width: 100%;
+}
+
+.bottom-section p {
+  margin-top: -8px;
+  margin-left: -138px;
+  height: 79px;
+  width: 366px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -40px;
+  height: 20px;
+  width: 100px;
+}
+
+.social img:hover {
+  filter: invert(73%) sepia(63%) saturate(4403%) hue-rotate(326deg) brightness(99%) contrast(97%);
+}
+
+/** Tablet Version **/
+@media (max-width: 1320px) {
+  .top-section {
+    grid-template-columns: 75% auto;
+  }
+  
+  .top-section div {
+    max-width: 686px;
+  }
+  
+  .top-section h1 {
+    font-size: 64px;
+    letter-spacing: -0.73px;
+    line-height: 64px;
+  }
+
+  .top-section div p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .bg-pattern-1 {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -54px;
+    right: 0;
+    object-position: 36px 0px;
+    object-fit: cover;
+    height: 400px;
+    width: 266px;
+  }
+  
+  .middle-section {
+    margin-top: 250px;
+    width: 696px;
+    min-width: 696px;
+    max-width: 100%;
+  }
+  
+  .bg-pattern-2 {
+    margin-top: -40px;
+    margin-left: 220px;
+    height: 467px;
+    width: 312px;
+    z-index: 0;
+  }
+  
+  .illustratiotn-app-img {
+    margin-left: 64px;
+    margin-top: -140px;
+    height: 556px;
+    width: 270px;
+  }
+  
+  .card {
+    border-radius: 12px;
+    margin-top: 150px;
+    margin-left: -100px;
+    margin-right: auto;
+    height: 546px;
+    width: 399px;
+  }
+  
+  .card h1,
+  .card h2,
+  .card p {
+    color: var(--cool-december);
+    margin-left: 48px;
+  }
+  
+  .card h2 {
+    font-size: 32px;
+    margin-top: 44px;
+    margin-bottom: 0px;
+  }
+  
+  .card p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    width: 302px;
+  }
+  
+  .card h1 {
+    margin-bottom: 15px;
+  }
+  
+  .ios-download-btn {
+    margin-left: 48px;
+    height: 61px;
+    width: 296px;
+  }
+  
+  .apk-download-btn {
+    margin-left: 48px;
+    height: 61px;
+    width: 296px;
+  }
+
+  .bottom-section .logo {
+    margin-left: 20px;
+  }
+  
+  .bottom-section p {
+    margin-top: 120px;
+    margin-left: -394px;
+  }
+  
+  .social {
+    margin-top: 80px;
+  }
+}
+
+/** Mobile Version **/
+@media (max-width: 576px) {
+  .top-section {
+    display: block;
+  }
+  
+  .top-section div {
+    max-width: 600px;
+  }
+
+  .top-section .logo {
+    margin-bottom: 60px;
+    height: 46px;
+    width: 206px;
+  }
+  
+  .top-section h1 {
+    font-size: 40px;
+    letter-spacing: -0.45px;
+    line-height: 48px;
+  }
+
+  .top-section div p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .bg-pattern-1 {
+    display: none;
+  }
+  
+  .middle-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 190px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  
+  .bg-pattern-2 {
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 380px;
+    width: 240px;
+  }
+  
+  .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 820px;
+    width: 100%;
+  }
+
+  .illustratiotn-app-img {
+    margin-left: 0;
+    margin-top: -120px;
+    height: 430px;
+    width: 208px;
+  }
+
+  .card {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 0px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .card h2 {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .card p {
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    width: 86%;
+  }
+  
+  .card h1 {
+    margin-bottom: 0px;
+    margin-left: 10px;
+  }
+  
+  .ios-download-btn {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+  
+  .apk-download-btn {
+    margin-left: 10px;
+    width: 80%;
+  }
+
+  .bottom-section {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 290px;
+  }
+
+  .bottom-section .logo {
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+  
+  .bottom-section p {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 60px;
+    width: 296px;
+  }
+  
+  .social {
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+:root {
+  --pluviophile: rgba(102, 226, 220, 1);
+  --fresh-salmon: rgba(250, 116, 83, 1);
+  --warm-apricot: rgba(255, 185, 100, 1);
+  --cool-december: rgba(252, 250, 249, 1);
+  --coarse-wool: rgba(25, 24, 38, 1);
+}
+
+body {
+  align-items: center;
+  background-color: var(--cool-december);
+  background-image: url(../assets/bg-main-desktop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-position-y: -100px;
+  background-position-x: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 62px 150px;
+}
+
+h1 {
+  color: var(--coarse-wool);
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  color: var(--coarse-wool);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+p {
+  color: var(--coarse-wool);
+  font-style: normal;
+  font-weight: 400;
+}
+
+/** Tablet Version **/
+@media (max-width: 1320px) {
+  body {
+    background-image: url(../assets/bg-main-tablet.png);
+    background-position-x: -100px;
+    background-position-y: -100px;
+    margin: 60px 40px;
+  }
+}
+
+/** Mobile Version **/
+@media (max-width: 576px) {
+  body {
+    background-image: url(../assets/bg-main-mobile.png);
+    background-position-x: 0px;
+    background-position-y: 0px;
+    margin: 30px 20px;
+  }
+}
